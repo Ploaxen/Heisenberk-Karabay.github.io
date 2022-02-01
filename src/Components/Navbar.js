@@ -1,12 +1,17 @@
 import React from 'react';
-const Navbar = () =>{
-  return (
-    <div>
-      <h3>Navbar</h3>
-      <div>
-        <img src="./logo.jpg"/>
+import logo from "./logo.jpg";
+
+const Navbar = () => {
+    return(
+    <nav className="navbar navbar-light bg-light">
+      <div className="container-fluid">
+        <a className="navbar-brand" href="#">
+          <img src= {logo} alt="" width="40" height="40" class="d-inline-block align-text-top"/>
+          Konumsal Bilgi Topluluğu
+        </a>
       </div>
-    </div>
-  );
-}
-export default Navbar;
+    </nav>
+    )
+};
+
+export default Navbar
