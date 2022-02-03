@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import image from "../meme.jpg"
+import image from "../Grey.png"
 
 export default class Mainpage extends Component {
   render() {

@@ -77,13 +77,13 @@ export default class Footer extends Component {
         
     
         
-        <section className="">
+        <section>
           
           <div className="row justify-content-center gx-5">
             
             <div className="col-lg-auto col-md-auto mb-4 mb-md-0">
             <section className='embed-responsive embed-responsive-1by1'>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1082.7228281142936!2d32.7332058899234!3d39.8652186212458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d3474234dd5eb3%3A0x5a6c30cb932231a0!2sGeomatik%20M%C3%BChendisli%C4%9Fi!5e0!3m2!1sen!2str!4v1643560546193!5m2!1sen!2str" width="400" height="300" allowFullScreen="" loading="lazy"></iframe>
+              <iframe title="Test image"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1082.7228281142936!2d32.7332058899234!3d39.8652186212458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d3474234dd5eb3%3A0x5a6c30cb932231a0!2sGeomatik%20M%C3%BChendisli%C4%9Fi!5e0!3m2!1sen!2str!4v1643560546193!5m2!1sen!2str" width="400" height="300" allowFullScreen="" loading="lazy"></iframe>
             </section>
                     
               
@@ -92,7 +92,7 @@ export default class Footer extends Component {
     
             
             <div className="col-lg-4 col-md-auto mb-4 mb-md-0">
-              <h5 className="text-uppercase">İletişim bilgileri</h5>
+              <h5 className="text-uppercase">İLETİŞİM BİLGİLERİ</h5>
                 <ul className='list-group'>
                     <li className='list-group-item align-items-left'>
                       <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
